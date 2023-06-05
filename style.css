@@ -18,9 +18,9 @@ body {
 
 main {
   background-color: rgba(52, 52, 52, 0.836);
-  width: 80%;
+  width: 90%;
   overflow: hidden;
-  max-width: 400px;
+  max-width: 450px;
   border-radius: 0.9rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
