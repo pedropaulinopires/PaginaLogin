@@ -69,8 +69,7 @@ function sumbmit(){
     label_password.classList.add("error")
     label_username.classList.remove("error")
 
-  } else if(!(password.value == "pedro123") && !(username.value == "pedro")){
-
+  } else if(!(password.value == "pedro123") || !(username.value == "pedro")){
     msg_password.classList.add("active")
     msg_password.innerText="Usuario/senha incorretos!"
     msg_username.classList.remove("active")
